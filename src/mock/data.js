@@ -20,23 +20,26 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
     '👦A Full Stack Developer who specializes in JavaScript Technologies across the whole stack (React, Angular, React Native, Vue, Node, Express). Plunging into JavaScript ecosystem',
-  paragraphTwo:
-    '💻 Technical Summary' +
-    '⌾ Front End — React.js, Vue.js, Redux, React-Native, Angular, TypeScript, JavaScript (ES6, ES7), HTML5, CSS3, SASS' +
-    '⌾ Back End — Node.js, Express.js, GraphQL, Spring Boot, MVC.Net and PHP' +
-    '⌾ Databases — MySQL, MongoDB and Sql Server' +
+  paragraphTwo: [
+    '💻 Technical Summary',
+    '⌾ Front End — React.js, Vue.js, Redux, React-Native, Angular, TypeScript, JavaScript (ES6, ES7), HTML5, CSS3, SASS',
+    '⌾ Back End — Node.js, Express.js, GraphQL, Spring Boot, MVC.Net and PHP',
+    '⌾ Databases — MySQL, MongoDB and Sql Server',
     '⌾ Additional Skills — Rest APIs, Twitter Bootstrap, Material UI, Responsive Development, Git, Bitbucket, JIRA, AWS, Lodash, Ramda, jQuery, Jest/Enzyme, React Testing Library',
-  paragraphThree: "✔ Let's Connect ► ✉ : avinashpipliya@gmail.com , 📞 : +91- 8962383130'",
+  ],
+  paragraphThree: '',
 
-  paragraphFour:
-    ' 👀 Also interested in:' +
+  paragraphFour: [
+    ' 👀 Also interested in:',
     '- Digital Marketing, SEO, Entrepreneurship, UX Planning and Designing, Web Security',
+  ],
 
-  paragraphFive:
-    ' 🧲 My drive towards reinforced learning & continuous improvement has led me to work on side projects with peers/friends' +
+  paragraphFive: [
+    ' 🧲 My drive towards reinforced learning & continuous improvement has led me to work on side projects with peers/friends',
     '⌾ tamannaa — https://tamannaa.herokuapp.com/ ',
+  ],
 
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1sdLwB__Wp-rDHvPBM210-zkDSgvEi6-h/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -97,7 +100,8 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'avinashpipliya@gmail.com',
+  paragraphOne: "✔ Let's Connect ► ✉ : avinashpipliya@gmail.com , 📞 : +91-8962383130",
 };
 
 // FOOTER DATA
@@ -105,23 +109,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/avinash-pipliya',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/avinashpipliyacode',
     },
   ],
 };

@@ -1,4 +1,13 @@
 /* Call to Action Button */
+
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.3;
+ 
+}
+
 .cta-btn {
   display: inline-block;
   position: relative;
@@ -19,6 +28,7 @@
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }
+
 }
 
 /* Hero Style */

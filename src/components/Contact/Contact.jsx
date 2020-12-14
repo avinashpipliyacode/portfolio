@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta, btn, email, paragraphOne } = contact;
 
   return (
     <section id="contact">
@@ -17,13 +17,16 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
+            <p className="contact-wrapper__text">
+              {paragraphOne}
+            </p>
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
               href={email ? `mailto:${email}` : ''}
             >
-              {btn || "Let's Talk"}
+              {btn || "OK!, let's write to me"}
             </a>
           </div>
         </Fade>
