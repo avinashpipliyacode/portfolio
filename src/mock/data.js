@@ -1,16 +1,17 @@
 import { nanoid } from 'nanoid';
 
+const name = 'Avinash Pipliya';
 // HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: `Hi, my name is ${name}, l am the ReactJS Developer.`, // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Avinash Pipliya',
+  name: name,
   subtitle: '',
   cta: '',
 };
