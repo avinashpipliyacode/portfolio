@@ -11,7 +11,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: name,
+  name,
   subtitle: '',
   cta: '',
 };
@@ -20,13 +20,13 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    '👦A Full Stack Developer who specializes in JavaScript Technologies across the whole stack (React, Angular, React Native, Vue, Node, Express). Plunging into JavaScript ecosystem',
+    '👦 Senior Full Stack Developer specializes in JavaScript frameworks (Reactjs, Nextjs, Node, Express).',
   paragraphTwo: [
     '💻 Technical Summary',
-    '⌾ Front End — React.js, Vue.js, Redux, React-Native, Angular, TypeScript, JavaScript (ES6, ES7), HTML5, CSS3, SASS',
-    '⌾ Back End — Node.js, Express.js, GraphQL, Spring Boot, MVC.Net and PHP',
+    '⌾ Front End — React.js, React Hooks, React hook forms, Material-ui, ag-Grids, Redux, React-Native, React-SSR, Isomorphic react app, NextJS, Gatsby, Angular, TypeScript, JavaScript (ES6, ES7), HTML5, CSS3, SASS, Ant design, Responsive Web Development',
+    '⌾ Back End — Node.js, Express.js, GoLang, GraphQL, Mongoose, Spring Boot, MVC.Net and PHP',
     '⌾ Databases — MySQL, MongoDB and Sql Server',
-    '⌾ Additional Skills — Rest APIs, Twitter Bootstrap, Material UI, Responsive Development, Git, Bitbucket, JIRA, AWS, Lodash, Ramda, jQuery, Jest/Enzyme, React Testing Library',
+    '⌾ Additional Skills — Git, Bitbucket, JIRA, AWS, Docker, kubernetes, Lodash, Ramda, jQuery, Jest, Enzyme, React Testing Library',
   ],
   paragraphThree: '',
 
@@ -37,14 +37,43 @@ export const aboutData = {
 
   paragraphFive: [
     ' 🧲 My drive towards reinforced learning & continuous improvement has led me to work on side projects with peers/friends',
-    '⌾ tamannaa — https://tamannaa.herokuapp.com/ ',
+    '⌾ Tamannaa — https://tamannaa.herokuapp.com/ ',
+    '⌾ Camion — https://camion.app/entity/user ',
+    '⌾ RBC — https://www.rbcautovantage.com/ ',
   ],
 
-  resume: 'https://drive.google.com/file/d/1sdLwB__Wp-rDHvPBM210-zkDSgvEi6-h/view', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/14XTiJkGDoSXXJceObvJqVctAtRs5fcPZ/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'tammana.png',
+    title: 'Tammana',
+    info: 'Tammana is platform to connect helper and requester',
+    info2: '',
+    url: 'https://tamannaa.herokuapp.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'camion.png',
+    title: 'Camion',
+    info: "Camion is Drives's application for tracking the driver and fleet.",
+    info2: '',
+    url: 'https://camion.app/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'cerebrum.png',
+    title: 'Iot Cerebrum',
+    info: 'Hub platform to track and monitor the devices information',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'cvlite.jpg',
@@ -102,7 +131,9 @@ export const contactData = {
   cta: '',
   btn: '',
   email: 'avinashpipliya@gmail.com',
-  paragraphOne: "✔ Let's Connect ► ✉ : avinashpipliya@gmail.com , 📞 : +91-8962383130",
+  paragraphOne: "✔ Let's Connect ► ✉ : avinashpipliya@gmail.com",
+  phone1: '+971-585096441',
+  phone2: '+91-8962383130',
 };
 
 // FOOTER DATA
